@@ -1,0 +1,9 @@
+{
+  "name": "inovyapikalip",
+  "version": "2.0.0",
+  "private": true,
+  "description": "İnovYapıKalıp - Ali Kılıç · Villa, Hafriyat, Kalıp, Demir, Beton · Kayseri",
+  "scripts": {
+    "build": "echo 'Static site ready for deploy'"
+  }
+}
