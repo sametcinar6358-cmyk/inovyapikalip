@@ -135,13 +135,6 @@ def header(page):
         f'        <li><a href="{href}"{" class=\"active\"" if href == page else ""}>{label}</a></li>' for href, label in NAV
     )
     return f"""
-<div class="topbar">
-  <div class="wrap">
-    <span><span class="flag flag-fr"><i></i><i></i><i></i></span> Fransa'dan 30 yıllık tecrübe <span class="hide-sm">· Kayseri ve çevresi</span></span>
-    <span><span class="hide-sm">Bize ulaşın: </span><a href="tel:{TEL}">{TEL_TXT}</a></span>
-  </div>
-</div>
-
 <header class="site-header">
   <div class="wrap">
     <nav class="main-nav">
